@@ -1,2 +1,3 @@
-# ondas-do-branding
-Quiz
+# Ondas do Branding
+
+Freelancer quiz developed by myself.

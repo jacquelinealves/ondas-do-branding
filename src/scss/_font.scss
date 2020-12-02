@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Regular';
+    src: url('src/fonts/DIN-Regular.eot');
+    src: url('src/fonts/DIN-Regular.eot') format('embedded-opentype'),
+         url('src/fonts/DIN-Regular.woff2') format('woff2'),
+         url('src/fonts/DIN-Regular.woff') format('woff'),
+         url('src/fonts/DIN-Regular.ttf') format('truetype'),
+         url('src/fonts/DIN-Regular.svg#DINRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('src/fonts/DIN-Black.eot');
+    src: url('src/fonts/DIN-Black.eot') format('embedded-opentype'),
+         url('src/fonts/DIN-Black.woff2') format('woff2'),
+         url('src/fonts/DIN-Black.woff') format('woff'),
+         url('src/fonts/DIN-Black.ttf') format('truetype'),
+         url('src/fonts/DIN-Black.svg#DINRegular') format('svg');
+}

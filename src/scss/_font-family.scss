@@ -17,3 +17,11 @@
          url('src/fonts/DIN-Black.ttf') format('truetype'),
          url('src/fonts/DIN-Black.svg#DINRegular') format('svg');
 }
+
+
+body {
+  font-family: Regular;
+}
+.highlight, .title, .level {
+  font-family: Bold;
+}

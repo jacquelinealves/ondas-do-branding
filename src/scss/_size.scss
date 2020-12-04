@@ -1,4 +1,16 @@
-// destaques: 30px;
-// titulos: 20px;
-// textos: 18px;
-// nav-sidebar: 18px;
+.level {
+  @include font-size(4.4);
+}
+.highlight {
+  @include font-size(3);
+  padding: 2rem;
+}
+.title {
+  @include font-size(2);
+}
+p, ul, li, a {
+   @include font-size(1.8);
+ }
+// p {
+//   @include font-size(1.2);
+// }

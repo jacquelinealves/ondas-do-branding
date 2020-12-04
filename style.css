@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 @font-face {
   font-family: "Regular";
   src: url("src/fonts/DIN-Regular.eot");
@@ -9,7 +13,142 @@
   src: url("src/fonts/DIN-Black.eot") format("embedded-opentype"), url("src/fonts/DIN-Black.woff2") format("woff2"), url("src/fonts/DIN-Black.woff") format("woff"), url("src/fonts/DIN-Black.ttf") format("truetype"), url("src/fonts/DIN-Black.svg#DINRegular") format("svg");
 }
 body {
-  font-family: "Bold", sans-serif;
+  font-family: Regular;
+}
+
+.highlight, .title, .level {
+  font-family: Bold;
+}
+
+.background--white {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+.background--orange {
+  background-color: #FF4C00;
+  color: #FFFFFF;
+}
+.background--black {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.background--red {
+  background-color: #FF2C00;
+  color: #FFFFFF;
+}
+.background--blue {
+  background-color: #0050CC;
+  color: #FFFFFF;
+}
+.background--green {
+  background-color: #03D1AA;
+  color: #FFFFFF;
+}
+
+.level {
+  font-size: 44px;
+  font-size: 4.4rem;
+}
+
+.highlight {
+  font-size: 30px;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 20px;
+  font-size: 2rem;
+}
+
+p, ul, li, a {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover, a:active, a:focus {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a.button, button, .button {
+  border: 1px solid transparent;
+  padding: 30px 0 10px;
+  text-align: center;
+  width: 200px;
+}
+a.button--black, button--black, .button--black {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+a.button--large, button--large, .button--large {
+  font-family: Bold;
+}
+a.button--large a, button--large a, .button--large a {
+  font-size: 20px;
+  font-size: 2rem;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+a.button--large i, button--large i, .button--large i {
+  font-size: 15px;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.page-intro .title {
+  padding: 45px 40px 20px 40px;
+}
+.page-intro .text {
+  padding: 0 40px;
+}
+.page-intro .introduction {
+  height: 250px;
+}
+.page-intro .sidebar {
+  margin-top: 0;
+}
+.page-intro .sidebar .title {
+  margin-bottom: 64px;
+}
+
+.hidden-text {
+  text-indent: -999999999rem;
+}
+
+.v-middle {
+  align-items: center;
+  display: flex;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+.gradient {
+  background: linear-gradient(270deg, rgba(179, 179, 179, 0.5) 0%, rgba(196, 196, 196, 0) 50%);
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+.border-radius-bottom {
+  border-bottom-right-radius: 5rem;
+}
+
+.border-radius-top {
+  border-top-left-radius: 5rem;
+}
+
+.sidebar {
+  margin-top: 180px;
+  padding-bottom: 30px;
+}
+
+.sidebar .title {
+  display: flex;
+  margin-bottom: 55px;
+  padding: 20px 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

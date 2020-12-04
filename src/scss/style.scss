@@ -1,10 +1,51 @@
-@import 'button';
+html {
+  font-size: 62.5%;
+}
+
+// Default
+@import 'mixin';
+@import 'font-family';
 @import 'color';
-@import 'font';
+@import 'size';
+@import 'button';
 @import 'form';
 @import 'modal';
-@import 'size';
 
-body {
-  font-family: 'Bold', sans-serif;
+// Pages
+@import 'page-intro';
+
+
+// Global
+.hidden-text {
+  text-indent: -999999999rem;
+}
+
+.v-middle {
+  align-items: center;
+  display: flex;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+.gradient {
+  background: $gradient;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+.border-radius-bottom {
+  border-bottom-right-radius: 5rem;
+}
+.border-radius-top {
+  border-top-left-radius: 5rem;
+}
+
+.sidebar {
+  margin-top: 180px;
+  padding-bottom: 30px;
+}
+.sidebar .title {
+  display: flex;
+  margin-bottom: 55px;
+  padding: 20px 30px;
 }

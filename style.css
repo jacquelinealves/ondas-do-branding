@@ -84,6 +84,19 @@ a.button--black, button--black, .button--black {
   background-color: #000000;
   color: #FFFFFF;
 }
+a.button--transparent, button--transparent, .button--transparent {
+  font-size: 16px;
+  font-size: 1.6rem;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  display: inline-block;
+  font-family: Bold;
+  height: 50px;
+  padding: 9px 0 5px 0;
+  text-align: center;
+  width: 200px;
+}
 a.button--large, button--large, .button--large {
   font-family: Bold;
 }
@@ -115,6 +128,66 @@ a.button--large i, button--large i, .button--large i {
   margin-bottom: 64px;
 }
 
+.result-container {
+  padding: 25px 45px 50px 45px;
+}
+.result-header {
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 28px;
+}
+.result-header .title {
+  font-size: 36px;
+  font-size: 3.6rem;
+  color: #000000;
+  font-family: Bold;
+}
+.result-header .medium {
+  font-size: 14px;
+  font-size: 1.4rem;
+  align-self: center;
+  color: #000000;
+  font-family: Bold;
+  line-height: 1.4rem;
+  width: 50px;
+}
+.result-header .medium-value {
+  font-size: 36px;
+  font-size: 3.6rem;
+  font-family: Bold;
+  margin: -10px 0 0 20px;
+}
+.result-content {
+  margin-top: 40px;
+}
+.result-content .title {
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #000000;
+  font-family: Bold;
+  padding-bottom: 10px;
+}
+.result-content .highlight {
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-family: Bold;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.result-content p {
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+.result-footer {
+  border-top: 1px solid #FFFFFF;
+  margin-top: 70px;
+  padding: 60px 0 40px;
+}
+.result-footer .svg-logo {
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+
 .hidden-text {
   text-indent: -999999999rem;
 }
@@ -124,6 +197,11 @@ a.button--large i, button--large i, .button--large i {
   display: flex;
   min-height: 100%;
   min-height: 100vh;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .gradient {
@@ -144,11 +222,13 @@ a.button--large i, button--large i, .button--large i {
   margin-top: 180px;
   padding-bottom: 30px;
 }
-
 .sidebar .title {
   display: flex;
   margin-bottom: 55px;
   padding: 20px 30px;
+}
+.sidebar .title-large {
+  margin-bottom: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

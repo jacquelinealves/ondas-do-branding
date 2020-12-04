@@ -1,0 +1,62 @@
+.result {
+
+  &-container {
+    padding: 25px 45px 50px 45px;
+  }
+
+  &-header {
+    border-bottom: 1px solid $color--white;
+    padding-bottom: 28px;
+
+    .title {
+      @include font-size(3.6);
+      color: $color--black;
+      font-family: Bold;
+    }
+
+    .medium {
+      @include font-size(1.4);
+      align-self: center;
+      color: $color--black;
+      font-family: Bold;
+      line-height: 1.4rem;
+      width: 50px;
+
+      &-value {
+        @include font-size(3.6);
+        font-family: Bold;
+        margin: -10px 0 0 20px;
+      }
+    }
+  }
+  &-content {
+    margin-top: 40px;
+    
+    .title {
+      @include font-size(1.6);
+      color: $color--black;
+      font-family: Bold;
+      padding-bottom: 10px;
+    }
+    .highlight {
+      @include font-size(2.4);
+      font-family: Bold;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    p {
+      @include font-size(2.4);
+    }
+  }
+  &-footer {
+    border-top: 1px solid $color--white;
+    margin-top: 70px;
+    padding: 60px 0 40px;
+
+    .svg-logo {
+      display: block;
+      float: left;
+      margin-right: 20px;
+    }
+  }
+}

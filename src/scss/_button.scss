@@ -18,6 +18,19 @@ a.button, button, .button {
     color: $color--white;
   }
 
+  &--transparent {
+    @include font-size(1.6);
+    background-color: transparent;
+    border: 1px solid $color--white;
+    color: $color--white;
+    display: inline-block;
+    font-family: Bold;
+    height: 50px;
+    padding: 9px 0 5px 0;
+    text-align: center;
+    width: 200px;
+  }
+
   &--large {
     font-family: Bold;
     

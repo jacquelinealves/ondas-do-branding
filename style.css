@@ -243,6 +243,70 @@ form select {
   margin-right: 20px;
 }
 
+.page-quiz.sidebar {
+  margin-top: 70px;
+}
+.page-quiz.sidebar .title {
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin-bottom: 100px;
+}
+.page-quiz .header {
+  padding: 20px 30px 0 30px;
+}
+.page-quiz .header .number {
+  font-size: 44px;
+  font-size: 4.4rem;
+  display: inline-block;
+  font-family: Bold;
+  margin-right: 20px;
+}
+.page-quiz .header .title {
+  display: inline-block;
+  font-family: Bold;
+}
+.page-quiz .header .explaining {
+  font-size: 14px;
+  font-size: 1.4rem;
+  display: block;
+  margin-top: 30px;
+}
+.page-quiz .question {
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.page-quiz-first .sidebar, .page-quiz-second .sidebar, .page-quiz-third .sidebar {
+  margin: 0;
+}
+.page-quiz-first .sidebar .title, .page-quiz-second .sidebar .title, .page-quiz-third .sidebar .title {
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.page-quiz-first .sidebar .content, .page-quiz-second .sidebar .content, .page-quiz-third .sidebar .content {
+  height: 182px;
+}
+.page-quiz-first .sidebar .value-grade, .page-quiz-second .sidebar .value-grade, .page-quiz-third .sidebar .value-grade {
+  margin-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.page-quiz-first .header {
+  height: 218px;
+}
+.page-quiz-second .header {
+  height: 152px;
+}
+.page-quiz-third .header {
+  height: 86px;
+}
+
 .hidden-text {
   text-indent: -999999999rem;
 }

@@ -112,6 +112,61 @@ a.button--large i, button--large i, .button--large i {
   margin-left: 0.5rem;
 }
 
+form {
+  color: #B3B3B3;
+  font-family: Regular;
+}
+form input, form select, form option {
+  font-size: 14px;
+  font-size: 1.4rem;
+  border: 1px solid #000000;
+  margin-bottom: 20px;
+  padding: 20px 10px 15px;
+  width: 100%;
+}
+form button, form a {
+  cursor: pointer !important;
+}
+form select {
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right transparent;
+  background-origin: content-box;
+  -webkit-appearance: none;
+}
+
+.modal {
+  background-color: #FFFFFF;
+}
+.modal-content {
+  border: none;
+  margin-top: 25px 0;
+  padding: 40px 75px;
+}
+.modal-header {
+  border: none;
+}
+.modal-header .title {
+  font-size: 28px;
+  font-size: 2.8rem;
+  font-family: Bold;
+  margin: 30px 0 25px;
+}
+.modal-header .subtitle {
+  font-size: 18px;
+  font-size: 1.8rem;
+  padding-bottom: 5px;
+}
+.modal-body {
+  padding: 25px 0;
+}
+.modal-footer {
+  border: none;
+}
+.modal-footer .terms-of-use {
+  font-size: 12px;
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
 .page-intro .title {
   padding: 45px 40px 20px 40px;
 }
@@ -202,6 +257,10 @@ a.button--large i, button--large i, .button--large i {
 .flex-end {
   display: flex;
   justify-content: flex-end;
+}
+
+.m-auto {
+  margin: 0 auto;
 }
 
 .gradient {

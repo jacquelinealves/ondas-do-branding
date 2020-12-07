@@ -1,0 +1,156 @@
+/* Global */
+
+a.button, button, .button {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+a.button--transparent, button--transparent, .button--transparent {
+  padding-top: 10px;
+}
+
+.gradient {
+  background: linear-gradient(270deg, rgba(179, 179, 179, 0.5) 0%, rgba(196, 196, 196, 0) 4%);
+  min-height: 0;
+}
+
+.gradient-sidebar {
+  background: linear-gradient(270deg, rgba(179, 179, 179, 0.5) 0%, rgba(196, 196, 196, 0) 40%);
+  min-height: 0;
+}
+
+/* Index */
+
+.highlight {
+  border-bottom: 1px solid #B3B3B3;
+  margin-bottom: 0;
+}
+
+.page-intro .title, .page-intro .text {
+  padding: 30px 15px 15px;
+}
+
+.page-intro .text {
+  padding-top: 20px;
+}
+
+.page-intro .sidebar {
+  margin-top: 35px;
+}
+
+.page-intro .sidebar-mobile {
+  margin-top: 220px;
+}
+
+.page-intro .sidebar-mobile .title {
+  margin-bottom: 39px;
+}
+
+/* Quiz */
+
+.page-quiz-first .header {
+  height: 140px;
+}
+
+.page-quiz .header .explaining {
+  margin-top: 10px;
+  line-height: 15px;
+}
+
+.page-quiz-first .sidebar .content, .page-quiz-second .sidebar .content, .page-quiz-third .sidebar .content {
+  height: 167px;
+}
+
+.page-quiz .header-previous, .page-quiz .header-next {
+  padding: 0;
+}
+
+.page-quiz .header-next .number, .page-quiz .header-previous .number {
+  font-size: 2.4rem;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.page-quiz .header-next .number {
+  color: #B3B3B3;
+}
+
+.page-quiz .header-next {
+  height: 72px;
+}
+
+.page-quiz .content-next .title {
+  margin-bottom: 102px;
+  margin-top: 4px;
+}
+
+.page-quiz .content-next .title .text-hide {
+  height: 25px;
+}
+
+.page-quiz.sidebar {
+  margin-top: 84px;
+}
+
+.page-quiz .sidebar-next {
+  margin-top: 0;
+}
+
+.page-quiz-first .header, .page-quiz-second .header {
+  height: 140px;
+}
+
+.page-quiz-first .sidebar .content .text-hide, .page-quiz-second .sidebar .content .text-hide {
+  height: 27px;
+}
+
+.radio-toolbar label {
+  margin-right: 3px;
+}
+
+/* Resultado */
+
+.result-content .highlight {
+  border: none;
+}
+
+.sidebar .title {
+  padding: 20px;
+}
+
+.result-header .title, .result-header .medium-value {
+  font-size: 2.3rem;
+}
+
+.result-header .medium-value {
+  margin: -6px 0 0 10px;
+}
+
+.result-header .medium {
+  font-size: 1rem;
+  line-height: 11px;
+  text-align: right;
+}
+
+.result-footer .svg-logo {
+  min-height: 150px;
+}
+
+/* Modal */
+
+.modal-header .title {
+  font-size: 1.8rem;
+}
+
+.modal-header .subtitle {
+  font-size: 1.4rem;
+}
+
+.modal-content {
+  padding: 40px 15px;
+}
+
+.modal .button--black {
+  padding-bottom: 15px;
+}

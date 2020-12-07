@@ -6,6 +6,7 @@ form {
   input, select, option {
     @include font-size(1.4);
     border: 1px solid $color--black;
+    // color: $color--gray;
     margin-bottom: 20px;
     padding: 20px 10px 15px;
     width: 100%;
@@ -19,5 +20,7 @@ form {
     background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right transparent;
     background-origin: content-box;
     -webkit-appearance: none;
+    color: #A4A4A4;
+    font-family: 'Din Regular';
   }
 }

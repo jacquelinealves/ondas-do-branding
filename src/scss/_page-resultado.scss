@@ -11,20 +11,20 @@
     .title {
       @include font-size(3.6);
       color: $color--black;
-      font-family: Bold;
+      font-family: 'Din Bold';
     }
 
     .medium {
       @include font-size(1.4);
       align-self: center;
       color: $color--black;
-      font-family: Bold;
+      font-family: 'Din Bold';
       line-height: 1.4rem;
       width: 50px;
 
       &-value {
         @include font-size(3.6);
-        font-family: Bold;
+        font-family: 'Din Bold';
         margin: -10px 0 0 20px;
       }
     }
@@ -35,12 +35,12 @@
     .title {
       @include font-size(1.6);
       color: $color--black;
-      font-family: Bold;
+      font-family: 'Din Bold';
       padding-bottom: 10px;
     }
     .highlight {
       @include font-size(2.4);
-      font-family: Bold;
+      font-family: 'Din Bold';
       padding: 0;
       margin-bottom: 20px;
     }

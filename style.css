@@ -3,21 +3,21 @@ html {
 }
 
 @font-face {
-  font-family: "Regular";
+  font-family: "Din Regular";
   src: url("src/fonts/DIN-Regular.eot");
   src: url("src/fonts/DIN-Regular.eot") format("embedded-opentype"), url("src/fonts/DIN-Regular.woff2") format("woff2"), url("src/fonts/DIN-Regular.woff") format("woff"), url("src/fonts/DIN-Regular.ttf") format("truetype"), url("src/fonts/DIN-Regular.svg#DINRegular") format("svg");
 }
 @font-face {
-  font-family: "Bold";
+  font-family: "Din Bold";
   src: url("src/fonts/DIN-Black.eot");
   src: url("src/fonts/DIN-Black.eot") format("embedded-opentype"), url("src/fonts/DIN-Black.woff2") format("woff2"), url("src/fonts/DIN-Black.woff") format("woff"), url("src/fonts/DIN-Black.ttf") format("truetype"), url("src/fonts/DIN-Black.svg#DINRegular") format("svg");
 }
 body {
-  font-family: Regular;
+  font-family: "Din Regular";
 }
 
 .highlight, .title, .level {
-  font-family: Bold;
+  font-family: "Din Bold";
 }
 
 .background--white {
@@ -91,14 +91,14 @@ a.button--transparent, button--transparent, .button--transparent {
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
   display: inline-block;
-  font-family: Bold;
+  font-family: "Din Bold";
   height: 50px;
   padding: 9px 0 5px 0;
   text-align: center;
   width: 200px;
 }
 a.button--large, button--large, .button--large {
-  font-family: Bold;
+  font-family: "Din Bold";
 }
 a.button--large a, button--large a, .button--large a {
   font-size: 20px;
@@ -114,7 +114,7 @@ a.button--large i, button--large i, .button--large i {
 
 form {
   color: #B3B3B3;
-  font-family: Regular;
+  font-family: "Din Regular";
 }
 form input, form select, form option {
   font-size: 14px;
@@ -212,7 +212,7 @@ form select {
 .modal-header .title {
   font-size: 28px;
   font-size: 2.8rem;
-  font-family: Bold;
+  font-family: "Din Bold";
   margin: 30px 0 25px;
 }
 .modal-header .subtitle {
@@ -259,21 +259,21 @@ form select {
   font-size: 36px;
   font-size: 3.6rem;
   color: #000000;
-  font-family: Bold;
+  font-family: "Din Bold";
 }
 .result-header .medium {
   font-size: 14px;
   font-size: 1.4rem;
   align-self: center;
   color: #000000;
-  font-family: Bold;
+  font-family: "Din Bold";
   line-height: 1.4rem;
   width: 50px;
 }
 .result-header .medium-value {
   font-size: 36px;
   font-size: 3.6rem;
-  font-family: Bold;
+  font-family: "Din Bold";
   margin: -10px 0 0 20px;
 }
 .result-content {
@@ -283,13 +283,13 @@ form select {
   font-size: 16px;
   font-size: 1.6rem;
   color: #000000;
-  font-family: Bold;
+  font-family: "Din Bold";
   padding-bottom: 10px;
 }
 .result-content .highlight {
   font-size: 24px;
   font-size: 2.4rem;
-  font-family: Bold;
+  font-family: "Din Bold";
   padding: 0;
   margin-bottom: 20px;
 }
@@ -323,12 +323,12 @@ form select {
   font-size: 44px;
   font-size: 4.4rem;
   display: inline-block;
-  font-family: Bold;
+  font-family: "Din Bold";
   margin-right: 20px;
 }
 .page-quiz .header .title {
   display: inline-block;
-  font-family: Bold;
+  font-family: "Din Bold";
 }
 .page-quiz .header .explaining {
   font-size: 14px;

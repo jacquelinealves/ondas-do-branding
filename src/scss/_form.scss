@@ -1,7 +1,7 @@
 form {
 
   color: $color--gray;
-  font-family: Regular;
+  font-family: 'Din Regular';
   
   input, select, option {
     @include font-size(1.4);

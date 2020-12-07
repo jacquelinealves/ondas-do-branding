@@ -24,7 +24,7 @@ a.button, button, .button {
     border: 1px solid $color--white;
     color: $color--white;
     display: inline-block;
-    font-family: Bold;
+    font-family: 'Din Bold';
     height: 50px;
     padding: 9px 0 5px 0;
     text-align: center;
@@ -32,7 +32,7 @@ a.button, button, .button {
   }
 
   &--large {
-    font-family: Bold;
+    font-family: 'Din Bold';
     
     a {
       @include font-size(2);

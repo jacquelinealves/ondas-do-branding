@@ -15,13 +15,13 @@
     .number {
       @include font-size(4.4);
       display: inline-block;
-      font-family: Bold;
+      font-family: 'Din Bold';
       margin-right: 20px;
     }
 
     .title {
       display: inline-block;
-      font-family: Bold;
+      font-family: 'Din Bold';
     }
 
     .explaining {

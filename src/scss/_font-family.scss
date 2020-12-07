@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Regular';
+    font-family: 'Din Regular';
     src: url('src/fonts/DIN-Regular.eot');
     src: url('src/fonts/DIN-Regular.eot') format('embedded-opentype'),
          url('src/fonts/DIN-Regular.woff2') format('woff2'),
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: 'Bold';
+    font-family: 'Din Bold';
     src: url('src/fonts/DIN-Black.eot');
     src: url('src/fonts/DIN-Black.eot') format('embedded-opentype'),
          url('src/fonts/DIN-Black.woff2') format('woff2'),
@@ -20,8 +20,8 @@
 
 
 body {
-  font-family: Regular;
+  font-family: 'Din Regular';
 }
 .highlight, .title, .level {
-  font-family: Bold;
+  font-family: 'Din Bold';
 }

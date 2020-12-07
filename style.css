@@ -133,6 +133,44 @@ form select {
   -webkit-appearance: none;
 }
 
+.form-check-inline .form-check-input {
+  margin: 15px 8px;
+}
+
+input[type=radio] {
+  position: relative;
+  visibility: hidden;
+}
+
+input[type=radio] + label:before {
+  content: " ";
+  border: 1px solid #777;
+  display: inline-block;
+  height: 35px;
+  margin-right: 2px;
+  vertical-align: baseline;
+  width: 35px;
+  cursor: pointer;
+}
+
+input[type=radio]:checked + label:before {
+  background: #FF2C00;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  z-index: 4;
+}
+
+/* CUSTOM RADIO AND CHECKBOX STYLES */
+input[type=radio] + label:before {
+  border-radius: 20px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  color: white;
+}
+
 .modal {
   background-color: #FFFFFF;
 }
@@ -174,13 +212,13 @@ form select {
   padding: 0 40px;
 }
 .page-intro .introduction {
-  height: 250px;
+  height: 267px;
 }
 .page-intro .sidebar {
   margin-top: 0;
 }
 .page-intro .sidebar .title {
-  margin-bottom: 64px;
+  margin-bottom: 46px;
 }
 
 .result-container {
@@ -342,12 +380,12 @@ form select {
 }
 
 .sidebar {
-  margin-top: 180px;
+  margin-top: 195px;
   padding-bottom: 30px;
 }
 .sidebar .title {
   display: flex;
-  margin-bottom: 55px;
+  margin-bottom: 53px;
   padding: 20px 30px;
 }
 .sidebar .title-large {

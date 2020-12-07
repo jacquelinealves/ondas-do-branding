@@ -21,3 +21,47 @@ form {
     -webkit-appearance: none;
   }
 }
+
+.form-check-inline .form-check-input {
+  // height: 35px;
+  // width: 35px;
+  // position: relative;
+  margin: 15px 8px;
+}
+
+// .form-check-label {
+//   position: absolute;
+//   left: 16px;
+//   top: 14px;
+// }
+
+input[type=radio]{
+  position: relative;
+  visibility: hidden;
+}
+input[type=radio] + label:before{
+  content: " ";
+  border: 1px solid #777;
+  display: inline-block;
+  height: 35px;
+  margin-right: 2px;
+  vertical-align: baseline;
+  width: 35px;
+  cursor: pointer;
+}
+input[type=radio]:checked + label:before{
+  background: $color--red;
+  left: 2px;
+  position: absolute;
+  top: -0;
+  z-index: 4;
+}
+/* CUSTOM RADIO AND CHECKBOX STYLES */
+input[type=radio] + label:before{
+  border-radius: 20px;
+  left: 2px;
+  position: absolute;
+  top: -0;
+  z-index: 3;
+  color: white;
+}

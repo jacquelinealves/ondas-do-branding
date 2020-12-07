@@ -360,7 +360,7 @@ form select {
   padding-right: 30px;
 }
 .page-quiz-first .sidebar .content, .page-quiz-second .sidebar .content, .page-quiz-third .sidebar .content {
-  height: 182px;
+  height: 167px;
 }
 .page-quiz-first .header {
   height: 218px;
@@ -373,7 +373,7 @@ form select {
 }
 
 .hidden-text {
-  text-indent: -999999999rem;
+  text-indent: -99999rem;
 }
 
 .v-middle {

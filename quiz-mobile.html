@@ -13,7 +13,7 @@
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
   <!-- Animate.css -->
-  <link rel="stylesheet" href="https: //cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
   <!-- Style Default -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="mobile.css">
@@ -46,7 +46,7 @@
       <!-- //SIDEBAR -->
 
       <!-- SECOND -->
-      <div class="col-2 page-quiz page-quiz-second gradient-sidebar p-0">
+      <div class="col-2 page-quiz page-quiz-second gradient-sidebar p-0 wow fadeInRight" data-wow-duration="1s">
         <div class="header header-previous">
           <h2 class="number">02</h2>
           <h3 class="title d-none">PAPEL NA<br /> MINHA VIDA</h3>
@@ -126,7 +126,7 @@
       <!-- //SECOND -->
 
       <!-- THIRD -->
-      <div class="col page-quiz page-quiz-first gradient p-0">
+      <div class="col page-quiz page-quiz-first gradient p-0 wow fadeInRight" data-wow-delay=".5s" data-wow-duration="1s">
         <div class="header">
           <h2 class="number">03</h2>
           <h3 class="title">HARD<br/> SELL</h3>
@@ -201,7 +201,7 @@
       <!-- //THIRD -->
 
       <!-- FOURTH -->
-      <div class="col-2 page-quiz gradients-sidebar d-none p-0">
+      <div class="d-none col-2 page-quiz gradients-sidebar p-0 wow fadeInRight" data-wow-delay="1s" data-wow-duration="1s">
         <div class="header header-next">
           <h2 class="number">04</h2>
           <h3 class="title d-none">PAPEL NA<br /> MINHA VIDA</h3>
@@ -281,7 +281,7 @@
       <!-- //FOURTH -->
 
       <!-- START BUTTON -->
-      <div class="col-12 button button--large background--orange">
+      <div class="col-12 button button--large background--orange wow fadeIn">
         <a href="resultado-mobile.html">RESULTADO 
           <i class="fas fa-arrow-right"></i>
         </a>
@@ -293,6 +293,8 @@
   <!-- jQuery and JS bundle w/ Popper.js -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="src/js/wow.min.js"></script>
+  <script>new WOW().init();</script>
 
 </body>
 </html>

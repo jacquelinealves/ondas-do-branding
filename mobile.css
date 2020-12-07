@@ -138,7 +138,9 @@ a.button--transparent, button--transparent, .button--transparent {
 }
 
 /* Modal */
-
+.modal {
+  max-width: 100% !important;
+}
 .modal-header .title {
   font-size: 1.8rem;
 }

@@ -13,7 +13,7 @@
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
   <!-- Animate.css -->
-  <link rel="stylesheet" href="https: //cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
   <!-- Style Default -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="mobile.css">
@@ -22,13 +22,13 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-12 p-0">
+      <div class="col-sm-12 p-0 wow fadeInLeft" data-wow-delay=".5s">
         <h1 class="highlight">ONDAS DO BRANDING</h1>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-11 page-intro gradient p-0">
+      <div class="col-11 page-intro gradient p-0 wow fadeInLeft" data-wow-delay="2s">
         <div class="introduction">
           <h2 class="title">COMO FUNCIONA?</h2>
           <p class="text"><strong>Aqui entra um texto de introdução.</strong> Lorem ipsum dolor sit amet, consectetur
@@ -42,7 +42,7 @@
         </div>
       </div>
 
-      <div class="col-1 page-intro p-0">
+      <div class="col-1 page-intro p-0 wow fadeInRight" data-wow-delay="3s">
         <div class="sidebar sidebar-mobile">
           <span class="title background--red border-radius-top">
             <p class="hidden-text">.</p>
@@ -58,7 +58,7 @@
     </div>
 
     <div class="row">
-      <div class="col-sm-12 button button--large background--orange">
+      <div class="col-sm-12 button button--large background--orange wow fadeIn">
         <a href="quiz-mobile.html">COMEÇAR
           <i class="fas fa-arrow-right"></i>
         </a>
@@ -69,6 +69,8 @@
   <!-- jQuery and JS bundle w/ Popper.js -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="src/js/wow.min.js"></script>
+  <script>new WOW().init();</script>
 
 </body>
 </html>

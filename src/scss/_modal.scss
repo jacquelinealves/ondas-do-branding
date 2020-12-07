@@ -1,5 +1,12 @@
 .modal {
   background-color: $color--white;
+  max-width: 85% !important;
+  right: 0 !important;
+  left: initial !important;
+
+  &-backdrop {
+    background: transparent !important;
+  }
 
   &-content {
     border: none;

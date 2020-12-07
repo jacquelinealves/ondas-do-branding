@@ -194,6 +194,12 @@ form select {
 
 .modal {
   background-color: #FFFFFF;
+  max-width: 85% !important;
+  right: 0 !important;
+  left: initial !important;
+}
+.modal-backdrop {
+  background: transparent !important;
 }
 .modal-content {
   border: none;
